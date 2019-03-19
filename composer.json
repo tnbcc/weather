@@ -1,7 +1,19 @@
 {
+    "name": "tnbcc/weather",
+    "description": "天气SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tnbcc",
+            "email": "tniub.cc@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Tnbcc\\Weather\\": "src"
         }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
     }
 }
